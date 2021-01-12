@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962901122906",
+    "project_id": "assignmt-11-realtime-database",
+    "storage_bucket": "assignmt-11-realtime-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962901122906:android:397c8741fb2e958cad5d63",
+        "android_client_info": {
+          "package_name": "com.cal.realtimedatabaseassignmentno11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962901122906-omv5gfgnig6bpfuf7qigoahd9samo7ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAlCIRUpres7oyumOPWNS2Jo1teUgWqow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962901122906-omv5gfgnig6bpfuf7qigoahd9samo7ch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

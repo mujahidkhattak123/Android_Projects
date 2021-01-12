@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "RealTime Database Assignment No 11"
