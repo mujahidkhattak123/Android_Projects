@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item android:id="@+id/share"
+        android:icon="@drawable/share_24"
+
+        android:title="Share App"/>
+
+    <item android:id="@+id/Rate_Us"
+        android:icon="@drawable/rate_24"
+
+        android:title="Rate Us"/>
+
+    <item android:id="@+id/moreapp"
+        android:icon="@drawable/more_24"
+
+        android:title="More Apps"/>
+
+    <item android:id="@+id/privacypolicy"
+        android:icon="@drawable/privacypolicy_24"
+
+        android:title="Privacy Policy"/>
+
+
+
+    <item android:id="@+id/exit"
+        android:icon="@drawable/exit_24"
+
+        android:title="Exit"/>
+
+</menu>

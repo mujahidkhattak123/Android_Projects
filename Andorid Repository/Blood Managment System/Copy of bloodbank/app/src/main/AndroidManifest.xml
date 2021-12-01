@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bloodbank">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".User_profile"></activity>
+        <activity android:name=".Home_Activity" />
+        <activity android:name=".Starting_Activity" />
+        <activity android:name=".Donait_Blood" />
+        <activity android:name=".Yes_No_Dialog_Activity" />
+        <activity android:name=".Search_Blood_Camp" />
+        <activity android:name=".Sign_Up_Act" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Sign_in">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

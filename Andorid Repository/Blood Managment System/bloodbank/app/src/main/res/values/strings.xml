@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Blood bank</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string-array name="bood_Type_arrays">
+        <item>Select Your Blood Type</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+
+    </string-array>
+
+    items
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

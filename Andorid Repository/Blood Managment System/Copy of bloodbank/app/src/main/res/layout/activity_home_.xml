@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home_Activity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_vertical"
+            android:text="CBMS CORNER"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="24dp"
+            android:justificationMode="inter_word"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:background="#FB8C00"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="THE COMMUNITY-BASED MONITORING SYSTEM PROJECT MANAGEMENT OFFICE UNDER THE PROVINCIAL GOVERNMENT OF TARLAC HAS A COMMUNITY PROGRAM ENTITLED DUGO NG BUHAY WHICH BASICALLY A BAYANIHAN BLOOD DONATION FOR THE COMMUNITY PIONEERED BY THE MUNICIPALITY OF VICTORIA, DONATING FOR ONE ANOTHER. THIS PROGRAM WAS INITIATED YEAR 2013 AND THEY MADE THEIR FIRST MOVE WHICH IS TO GATHER INFORMATION OF PEOPLE WHO ARE WILLING TO JOIN THIS PROGRAM, AND DONATE BLOOD WHENEVER IT IS NEEDED DEPENDING ON WHAT BLOOD GROUP IS REQUESTED FOR A PATIENT, AND WHO ARE THE NEAREST POSSIBLE BLOOD DONORS FOR A PATIENT. IN RETURN, DONATORS CAN ALSO AVAIL BLOOD DONATIONS IF THEY NEED IT TOO, WHICH MAKES THEM CLASSIFY AS AN ACCEPTOR. THE NEXT ALLOWED DONATION OF A DONATOR HAS A 6 MONTHS INTERVAL SO THOSE WHO UNDERGONE DONATION CAN’T DONATE ANYMORE UNTIL 6 MONTHS HAS PASSED, WHICH MAKES THEM UNAVAILABLE FOR THAT SPAN OF TIME. HELLO THIS TEST....."
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:layout_marginBottom="13dp"
+            android:justificationMode="inter_word"
+            />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+
+                    android:layout_marginTop="16dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="BLOOD DONATION ACTIVITY"
+                    android:paddingLeft="11dp"
+                    android:paddingRight="11dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="24dp"
+                    android:justificationMode="inter_word"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="3dp"
+                    android:textColor="#fff"
+                    android:textSize="12sp"
+                    android:background="#FB8C00"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="NOVEMBER 27, 2017 @ BULWAGAN NG GOBERNADOR, CAPITOL BUILDING, SAN VICENTE TARLAC CITY"
+                    android:paddingLeft="11dp"
+                    android:paddingRight="11dp"
+                    android:layout_marginBottom="13dp"
+                    android:justificationMode="inter_word"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="16dp"
+                        android:layout_gravity="center_vertical"
+                        android:text="SAMPLE"
+                        android:paddingLeft="11dp"
+                        android:paddingRight="11dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="24dp"
+                        android:justificationMode="inter_word"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="3dp"
+                        android:textColor="#fff"
+                        android:textSize="12sp"
+                        android:background="#FB8C00"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text="BLOOD TRANSFUSION IS AN ESSENTIAL COMPONENT OF HEALTH CARE FOR EVERY HUMAN BEING LIVING ON THIS WORLD TODAY WHICH SAVES MANY LIVES EACH YEAR. BLOOD TRANSFUSION IS A UNIQUE TECHNOLOGY THAT BLENDS SCIENCE WITH ALTRUISM. THOUGH ITS COLLECTION, PROCESSING AND USE ARE TECHNICAL, ITS AVAILABILITY DEPENDS ENTIRELY ON THE EXTRAORDINARY GENEROSITY OF THE BLOOD DONOR WHO DONATES THIS MOST PRECIOUS OF GIFTS – THE GIFT OF LIFE. SAFE TRANSFUSION NOT ONLY REQUIRES THE APPLICATION OF SCIENCE AND TECHNOLOGY TO BLOOD PROCESSING AND TESTING BUT ALSO SOCIAL MOBILIZATION TO PROMOTE VOLUNTARY BLOOD DONATION BY SUFFICIENT NUMBERS OF PEOPLE WHO ARE HEALTHY AND ARE AT LOW RISK OF INFECTIONS
+"
+                        android:paddingLeft="11dp"
+                        android:paddingRight="11dp"
+                        android:layout_marginBottom="13dp"
+                        android:justificationMode="inter_word"
+                        />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

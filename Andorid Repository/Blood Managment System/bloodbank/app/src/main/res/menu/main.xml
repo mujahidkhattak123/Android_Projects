@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/homeicon_24"
+
+        android:title="Home"/>
+
+    <item android:id="@+id/user_profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+
+        android:title="User Profile"/>
+
+
+
+
+    <item android:id="@+id/log_out"
+        android:icon="@drawable/ic_baseline_call_missed_outgoing_24"
+
+        android:title="Log Out"/>
+
+    <item android:id="@+id/exit"
+        android:icon="@drawable/exit_24"
+
+        android:title="Exit"/>
+
+</menu>

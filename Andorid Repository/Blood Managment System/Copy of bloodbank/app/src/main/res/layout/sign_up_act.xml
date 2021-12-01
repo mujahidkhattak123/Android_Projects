@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Sign_Up_Act">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+    <EditText
+        android:id="@+id/id_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16sp"
+        android:paddingLeft="11dp"
+        android:textSize="14sp"
+        android:background="@drawable/border"
+        android:hint="First Name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_color" />
+    <EditText
+        android:id="@+id/id_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16sp"
+        android:textSize="14sp"
+        android:paddingLeft="11dp"
+        android:background="@drawable/border"
+        android:hint="Last Name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_color" />
+    <EditText
+        android:id="@+id/id_Blood_type"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16sp"
+        android:textSize="14sp"
+        android:paddingLeft="11dp"
+        android:background="@drawable/border"
+        android:hint="Blood type"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_color" />
+    <EditText
+        android:id="@+id/id_contact_no"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16sp"
+        android:textSize="14sp"
+        android:paddingLeft="11dp"
+        android:background="@drawable/border"
+        android:hint="Phone No"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_color" />
+    <EditText
+        android:id="@+id/id_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16sp"
+        android:textSize="14sp"
+        android:paddingLeft="11dp"
+        android:background="@drawable/border"
+        android:hint="Enter Email"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_color" />
+    <EditText
+        android:id="@+id/id_user_password"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16sp"
+        android:textSize="14sp"
+        android:paddingLeft="11dp"
+        android:background="@drawable/border"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_color" />
+    <EditText
+        android:id="@+id/id_province"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16sp"
+        android:textSize="14sp"
+        android:paddingLeft="11dp"
+        android:background="@drawable/border"
+        android:hint="province"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_color" />
+    <EditText
+        android:id="@+id/id_district"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16sp"
+        android:textSize="14sp"
+        android:paddingLeft="11dp"
+        android:background="@drawable/border"
+        android:hint="district"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_color" />
+    <EditText
+        android:id="@+id/id_address"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16sp"
+        android:textSize="14sp"
+        android:paddingLeft="11dp"
+        android:background="@drawable/border"
+        android:hint="Enter address"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/id_sign_up_btn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/corner_btn"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:layout_marginLeft="88dp"
+            android:text="Sign up"
+
+            />
+        <TextView
+            android:id="@+id/already_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Account"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="33dp"
+            />
+    </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
