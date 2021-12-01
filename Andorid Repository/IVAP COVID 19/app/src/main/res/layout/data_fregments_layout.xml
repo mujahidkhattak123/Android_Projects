@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000"
+    tools:context=".DataFregments">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:text="@string/txtmainintro"
+        android:paddingLeft="60dp"
+        android:paddingRight="11dp"
+        android:justificationMode="inter_word"/>
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:text="What is a ‘novel’ coronavirus or COVID-19 ?"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp"
+        android:justificationMode="inter_word"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="#000"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#fff"
+                android:textSize="14sp"                            android:text="@string/txtdescripitio"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:text="COVID-19 Online Self-Assessment"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#fff"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                android:text="@string/selfassessment"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:layout_marginBottom="2dp"
+                android:justificationMode="inter_word"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+      <Button
+          android:layout_width="200dp"
+          android:layout_marginTop="12dp"
+          android:id="@+id/btnbeingassisments"
+          android:background="@drawable/roundbutton"
+          android:backgroundTint="#1E88E5"
+          android:layout_gravity="fill_vertical"
+          android:drawableRight="@drawable/next_24"
+          android:drawableTint="#fff"
+          android:paddingRight="6dp"
+          android:paddingLeft="3dp"
+          android:text="Being assessment"
+          android:textColor="#fff"
+          android:layout_marginLeft="160dp"
+          android:layout_height="wrap_content">
+
+      </Button>
+
+
+      <View
+          android:id="@+id/divider"
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:layout_marginTop="8dp"
+          android:background="#BFBEBE"
+        />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+      <TextView
+          android:layout_width="wrap_content"
+          android:id="@+id/txtaboutus"
+          android:layout_marginTop="10dp"
+          android:layout_height="wrap_content"
+          android:text="ABOUT US"
+          android:textSize="12sp"
+          android:layout_marginLeft="6dp"
+          android:textColor="#fff"
+
+          />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_marginTop="10dp"
+              android:id="@+id/faq"
+              android:layout_height="wrap_content"
+              android:text="FAQ"
+              android:textSize="12sp"
+
+              android:layout_marginLeft="20dp"
+              android:textColor="#fff"
+              />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_marginTop="10dp"
+              android:id="@+id/madby"
+              android:layout_height="wrap_content"
+              android:text="© 2020, made by VAP-IRC"
+              android:textSize="12sp"
+
+              android:layout_marginLeft="110dp"
+              android:textColor="#fff"
+              />
+      </LinearLayout>
+  </LinearLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,124 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">IVAP Cot</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="fragments_aftter_Allcheckbox_IsUncheck_checkbox9_page_8">Have you recently participated in large congregation ?</string>
+    <string name="fragments_aftter_Allcheckbox_IsUncheck_checkbox9_page_7">Do You regularly engage in public dealing? (e. g Bank, Tailor, General Physician)?</string>
+    <string name="fragments_aftter_Allcheckbox_IsUncheck_checkbox9_page_6">Are you a caregiver of a person diagnosed with pneumonia of unspecified cause?</string>
+    <string name="fragments_aftter_Allcheckbox_IsUncheck_checkbox9_page_5">Have you had close contact with a confirmed or probable COVID-19 patient? Close* ( 15 minute of face to face contact with 1 meter ) ?</string>
+    <string name="fragments_aftter_Allcheckbox_IsUncheck_checkbox9_page_4">Have you had household contact with a asymptomatic international traveler ?</string>
+    <string name="fragments_aftter_Allcheckbox_IsUncheck_checkbox9_page_3">Have you travelled outside your country in past 14 days ?</string>
+    <string name="fragments_aftter_Allcheckbox_IsUncheck_checkbox9_page2">Do you have a dry cough ?</string>
+    <string name="fragments_aftter_Allcheckbox_IsUncheck_checkbox9">Do you have fever ? Fever > 100 Degrees Fahrenheit /38 Degree Celsius or highe</string>
+    <string name="questionares_page_7_text">Thanks for participating in the survey</string>
+
+    <string name="fragments_aftter_Allcheckbox_IsUncheck_checkbox9_page9_a">Thanks for participating in the survey</string>
+    <string name="fragments_aftter_Allcheckbox_IsUncheck_checkbox9_page9_b">Your Score Points for the symptoms of COVID-19 : 29</string>
+    <string name="fragments_aftter_Allcheckbox_IsUncheck_checkbox9_page9_c">If you are under 50, have no other health issues and have a symptom score of less than 6 points: All is good but,
+
+Stay at home and follow Government guidelines. Continue to monitor yourself for any changes in your symptoms.
+
+Drink plenty of fluids.
+
+if scores are above 6
+
+Self-Isolate, Please Seek Medical Consultation Immediately and go to your nearest emergency department or call (1166, 1700, available toll free PDMA, NIH etc.)
+
+If you are above 50 and your symptom score is greater than 6 and you have an emergency warning sign (including trouble breathing),
+
+Get emergency medical care immediately.
+
+Among adults, the risk for severe illness from COVID-19 increases with age, with older adults at highest risk. Severe illness means that the person with COVID-19 may require hospitalization, intensive care, or a ventilator to help them breathe.</string>
+
+
+    <string name="fragments_aftter_Allcheckbox_IsUncheck_checkbox9_page9_d">THE GREATER THE NUMBER YOUR SELF-ASSESSMENT GENERATES BRINGS YOU CLOSER TO THE PROBABILITY OF BEING INFECTED BY COVID19 (CORONAVIRUS).</string>
+
+    <string name="questionares_page_6_text">You may be having a medical emergency and need urgent medical attention. Please seek medical advice and go to your nearest emergency department or call (1166, 1700, available toll free PDMA, NIH etc.)</string>
+
+    <string name="data_1">Gasping for air or cannot talk without catching your breath (extremely difficult breathing)</string>
+    <string name="data_2">Blue-colored lips or face</string>
+    <string name="data_3">Severe and constant pain or pressure in the chest</string>
+    <string name="data_4">Severe and constant dizziness or lightheadedness</string>
+    <string name="data_5">Acting confused (new or worsening)</string>
+    <string name="data_6">Unconscious or very difficult to wake up</string>
+    <string name="data_7">Slurred speech (new or worsening)</string>
+    <string name="data_8">New seizure or seizure that won’t stop</string>
+    <string name="data_9">Not experiencing any life-threatening symptoms</string>
+
+    Gasping for air or cannot talk without catching your breath (extremely difficult breathing)
+    <string name="age_data">Choose Country </string>
+    <string-array name="age_arrays">
+        <item>Select Age</item>
+        <item>Less Than 2</item>
+        <item>2-4</item>
+        <item>5-9</item>
+        <item>10-18</item>
+        <item>19-29</item>
+        <item>30-39</item>
+        <item>40-49</item>
+        <item>50-60</item>
+        <item>60-64</item>
+        <item>60-69</item>
+        <item>70-79</item>
+        <item>80+ Year</item>
+
+    </string-array>
+
+
+    <string name="location_spinner">Choose Country </string>
+    <string-array name="country_arrays">
+        <item>Select Country</item>
+        <item>Out Of Pakistan</item>
+        <item>Pakistan</item>
+
+    </string-array>
+
+    <string-array name="povince_arrays">
+        <item>Select State/Province</item>
+        <item>Balochistan</item>
+        <item>Khyber Pakhtunkhwa</item>
+        <item>Punjab</item>
+        <item>Sindh</item>
+        <item>Azad Jammu and Kashmir</item>
+        <item>Gilgit-Baltistan</item>
+    </string-array>
+
+    <string-array name="district_arrays">
+        <item>Select District</item>
+        <item>Select Country</item>
+        <item>Out Of Pakistan</item>
+        <item>Pakistan</item>
+    </string-array>
+    <string-array name="city_arrays">
+        <item>Select City</item>
+        <item>Out Of Pakistan</item>
+        <item>Pakistan</item>
+
+    </string-array>
+
+
+    <string name="txtmainintro">COVID-19</string>
+    <string name="txtdescripitio" tools:ignore="StringEscaping">
+COVID-19 is a disease caused by a new strain of coronavirus. CO stands for corona, VI for virus, and D for disease. Formerly, this disease was referred to as 2019 novel coronavirus or 2019-nCoV (Source: WHO). The COVID-19 virus is a new virus linked to the same family of viruses as Severe Acute Respiratory Syndrome (SARS) and some types of common cold. The most common symptoms of COVID-19 are dry cough, tiredness, and fever. Some people may develop more severe forms of the disease, such as pneumonia.
+
+The World Health Organization (WHO) on March 11 declared COVID-19 a pandemic. Currently, millions of people have been infected by COVID19 across the globe and the details can be accessed here. The latest number cases in Pakistan can be accessed here.</string>
+
+    <string name="selfassessment">Use this self-assessment tool to determine whether you should be tested for COVID-19. You can complete this assessment by yourself or on behalf of someone else if they are unable to do. Please self-check if anyone who has symptoms, including runny nose, high fever, or sore throat.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="beinassessments">This tool will help you assess your symptoms and determine if you Are a candidate for a coronavirus disease 2019 (COVID-19) test. It also offers guidance on when to seek medical care and what to do in the meantime. This information is based on Centers for Disease Control and Prevention (CDC) guidelines, National Institute of Health (NIH) guidelines, Aga Khan Hospital COVID -19 screening guidelines, Directorate General Health Service Sindh -COVID -19 Self-assessment tool , Bermuda Hospitals and recent literature available on COVID-19.
+
+assignment
+This tool is not meant to take the place of consultation with your health care provider or to diagnose or treat conditions. If you Are in an emergency medical situation, call (1166, 1700, available toll free PDMA, NIH etc.) or your local emergency number.
+
+description
+Information about COVID-19 is constantly changing. And the level of COVID-19 activity varies by community, as does the availability of testing. You will be asked to answer few questions about your symptoms, travel history, and any contact you have had with others.
+
+policy
+We are committed to respect our data policy and providing transparency about our data practices
+
+announcement
+This is a screening tool and not a diagnostic test. Please consult a doctor for diagnosis.</string>
+
+</resources>

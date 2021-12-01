@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".BeinAssesmentsFragments">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="#fff"
+
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginTop="13dp"
+        android:text="COVID-19 Self-Assessment Tool"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp"
+        android:layout_marginBottom="2dp"
+        android:justificationMode="inter_word"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="2dp"
+        android:justificationMode="inter_word"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp"
+        android:text="@string/beinassessments"
+        android:textColor="#000"
+        android:textSize="12sp" />
+        <CheckBox
+            android:id="@+id/btncheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#fff"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:text="I Have Read The Privacy Policy And Term of Services" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="100dp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/btnpre"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1E88E5"
+                android:layout_gravity="fill_vertical"
+                android:text="Back"
+
+                android:drawableLeft="@drawable/back_24"
+                android:drawableTint="#fff"
+                android:paddingLeft="6dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="5dp"
+                android:layout_height="40dp"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_marginTop="12dp"
+                android:id="@+id/btnnext"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#1E88E5"
+                android:layout_gravity="fill_vertical"
+                android:text="Next"
+                android:visibility="invisible"
+                android:drawableRight="@drawable/next_24"
+                android:paddingRight="6dp"
+                android:drawableTint="#fff"
+                android:textColor="#fff"
+                android:layout_marginLeft="110dp"
+                android:layout_height="40dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
