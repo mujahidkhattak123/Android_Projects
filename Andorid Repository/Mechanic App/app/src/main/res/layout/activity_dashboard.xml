@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mechanic_app.Dashboard">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/images"
+            android:scaleType="fitXY">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/tasweer"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_Admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:background="@drawable/shape"
+            android:text=" Admin "
+            android:textColor="#ff0040"
+            android:layout_marginTop="50dp"
+            android:textSize="50sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/Retrieve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Users "
+            android:textSize="50sp"
+            android:layout_marginLeft="110dp"
+            android:textColor="#ff0040"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape">
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

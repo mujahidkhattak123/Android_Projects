@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".mechanic_app.Map_Data_Selection">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/qqq" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnstyle"
+        android:text="Mechanic Map Show"
+        android:textSize="18dp"
+        android:onClick="Engine_Mechanic"
+        app:backgroundTint="#E65100" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnstyle"
+        android:text="Electrician Map Show"
+        android:textSize="18dp"
+        android:onClick="Electrician"
+        app:backgroundTint="#E65100" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnstyle"
+        android:text="Wheel Alignment Map Show"
+        android:textSize="18dp"
+        android:onClick="Wheel_Alignment"
+        app:backgroundTint="#E65100" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnstyle"
+        android:text="Hospital Map Show"
+        android:textSize="18dp"
+        android:onClick="Hospital_Map"
+        app:backgroundTint="#E65100" />
+</LinearLayout>
