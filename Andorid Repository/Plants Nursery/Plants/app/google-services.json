@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "433959768426",
+    "firebase_url": "https://fir-work-d021d.firebaseio.com",
+    "project_id": "fir-work-d021d",
+    "storage_bucket": "fir-work-d021d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433959768426:android:de6bebce967ba2d012d513",
+        "android_client_info": {
+          "package_name": "nurssery.plant_nurssery_app_finder.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433959768426-tob67eqhheujn0912d09o8c4lqf00dr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBet4eIaEbuXPItNNt_T7YbtYoZzJj6vAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433959768426-tob67eqhheujn0912d09o8c4lqf00dr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
